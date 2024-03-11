@@ -14,11 +14,11 @@
 
 ## 安装
 
-`npm i`
+`npm install`
 
 ## 运行
 
-`npm start`
+`npm run start`
 
 
 ## 打包
