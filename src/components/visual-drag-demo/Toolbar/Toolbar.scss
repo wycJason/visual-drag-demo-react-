@@ -1,0 +1,92 @@
+.toolbar {
+    padding: 15px 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+    background: var(--main-bg-color);
+    border-color: var(--ace-bg-color);
+    border-bottom: 1px solid var(--border-color);
+
+    &>.dx-button{
+        margin:5px;
+    }
+
+    .canvas-config {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        color: var(--text-color);
+
+        input {
+            width: 50px;
+            margin-left: 4px;
+            outline: none;
+            padding: 0 5px;
+            border: 1px solid var(--border-color);
+            color: #606266;
+        }
+
+        span {
+            margin-left: 10px;
+        }
+    }
+
+    .el-button--small {
+        background: var(--main-bg-color);
+        border: 1px solid var(--toolbar-border-color);
+        color: var(--button-text-color);
+    }
+
+    .el-button--small:hover {
+        background: var(--button-active-text-color);
+        border-color: var(--actived-bg-color);
+        color: var(--main-bg-color);
+    }
+
+    .insert {
+        display: inline-block;
+        line-height: 1;
+        white-space: nowrap;
+        cursor: pointer;
+        border: 1px solid var(--toolbar-border-color);
+        color: var(--text-color);
+        appearance: none;
+        text-align: center;
+        box-sizing: border-box;
+        outline: 0;
+        margin: 0;
+        transition: .1s;
+        font-weight: 500;
+        padding: 9px 15px;
+        font-size: 12px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
+    .insert {
+        background: var(--main-bg-color);
+        border: 1px solid var(--toolbar-border-color);
+        color: var(--button-text-color);
+
+        &:active {
+            background: var(--button-active-text-color);
+            border-color: var(--actived-bg-color);
+            color: var(--main-bg-color);
+        }
+
+        &:hover {
+            background: var(--button-active-text-color);
+            border-color: var(--actived-bg-color);
+            color: var(--main-bg-color);
+        }
+    }
+
+    .el-button.is-disabled {
+        color: var(--disable-text-color);
+        border-color: var(--disable-border-color);
+        background: var(--main-bg-color);
+
+        &:hover {
+            background: var(--main-bg-color);
+        }
+    }
+}
