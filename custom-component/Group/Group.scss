@@ -1,0 +1,14 @@
+.group {
+    width: 100%;
+    height: 100%;
+
+    &>div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        .component {
+            position: absolute;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.component-list {
+    opacity: 1;
+    height: 65%;
+    padding: 8px;
+    display: grid;
+    position: relative;
+    grid-gap: 10px 19px;
+    grid-template-columns: repeat(auto-fill, 80px);
+    grid-template-rows: repeat(auto-fill, 40px);
+    transition: opacity .5s .5s;
+
+    .list {
+        width: 80px;
+        height: 40px;
+        border: 1px solid #ddd;
+        cursor: grab;
+        text-align: center;
+        padding: 2px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:active {
+            cursor: grabbing;
+        }
+        .iconfont,.icon{
+            font-size: 16px;
+        }
+        
+    }
+}

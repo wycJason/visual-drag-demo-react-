@@ -1,0 +1,24 @@
+.ace {
+    position: absolute;
+    width: 550px;
+    top: 63px;
+    border: 1px solid #ddd;
+    z-index: 100;
+
+    .btn-alignment {
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px;
+    }
+
+    .ace-editor {
+         height: calc(100% - 70px);
+        .editor {
+            margin: 10px 5px;
+        }
+    }
+
+    .btn {
+        margin: 5px;
+    }
+}
