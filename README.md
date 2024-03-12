@@ -16,6 +16,10 @@
 ### 其它任意尺寸
 ![image](https://github.com/wycJason/visual-drag-demo-react-/assets/24973464/9349090c-bd2b-4ed1-8616-d53dad9c1947)
 
+## 在线DEMO
+[预览入口（Github）不翻墙可能速度慢](https://wycjason.github.io/#/dashboard)
+
+
 
 ## 安装
 
