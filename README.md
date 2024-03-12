@@ -9,7 +9,7 @@
 ## 设计界面
 ![image](https://github.com/wycJason/visual-drag-demo-react-/assets/24973464/02baa194-174a-4b7a-aac9-37ce4c227510)
 
-## 预览界面（可根据屏幕大小自适应调整）
+## 预览界面（可根据屏幕大小自适应调整），按`ESC`键退出预览
 ### 1920*1080
 ![image](https://github.com/wycJason/visual-drag-demo-react-/assets/24973464/d6521de2-8b7d-4879-81d7-5d036ffe680b)
 
