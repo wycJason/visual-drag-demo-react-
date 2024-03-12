@@ -1,5 +1,10 @@
+一个低代码平台的前端部分，靠拖拉拽生成页面。
+
+
 ## 说明
 本项目应用框架模板是react版本的[devextreme](https://js.devexpress.com/React/)，是对基于vue2的[visual-drag-demo](https://github.com/woai3c/visual-drag-demo)的翻译，是react版本，免费供大家参考学习。如有对作者woai3c的僭越之处还请联系我，可随时删除。本人懂vue，在学习react中，看到作者说这个项目是教学项目，刚好作者没有做react版本，我就拿来练手。react版本对vue版本只做了技术上的翻译，思想没做任何改动。唯一的改动，就是添加了缩放的适配，可根据浏览器自动调整大小而不出现滚动条。
+
+如果想了解详细的开发思路请转至[visual-drag-demo](https://github.com/woai3c/visual-drag-demo)进行学习。
 
 ## 设计界面
 ![image](https://github.com/wycJason/visual-drag-demo-react-/assets/24973464/02baa194-174a-4b7a-aac9-37ce4c227510)
